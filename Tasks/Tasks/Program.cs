@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Tasks
 {
@@ -25,13 +26,21 @@ namespace Tasks
 
             //////////////   TASK 3    /////////////////
 
-            int[] arr = { 5, 6, 12, 4, 88, 2, 44, 23 };
+            /*int[] arr = { 5, 6, 12, 4, 88, 2, 44, 23 };
             Task3<int> task3 = new Task3<int> { };
-            task3.filterArray(arr, 2, 12);
+            task3.filterArray(arr, 2, 12);*/
 
-            double[] arr1 = { 5.4, 6.2, 12.0, 5.4, 8.8, 0.2, 4.4, 2.3 };
-            Task3<double> task3_1 = new Task3<double> { };
-            task3_1.filterArray(arr1, 0.0, 5.0);
+            /*double[] arr1 = { 5.4, 6.2, 12.0, 5.4, 8.8, 0.2, 4.4, 2.3 };
+            Task3<double> task3_1 = new Task3<double> { };            
+            ICollection <double> list = task3_1.filterArray(arr1, 0.0, 5.0);
+            foreach (double i in list)
+                Console.WriteLine(i);*/
+
+            //////////////   TASK 4    /////////////////
+
+            string text = "Some  rrr      text ++" ;
+            Task4 task4 = new Task4();
+            Console.WriteLine(task4.wordsCounter(text));
 
 
 

@@ -16,8 +16,6 @@ namespace Tasks
                 { 
                     res.Add(i);
                 }
-            foreach (T i in res)
-                Console.WriteLine(i);
             return res.ToArray<T>();
 
           
