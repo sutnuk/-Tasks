@@ -38,9 +38,19 @@ namespace Tasks
 
             //////////////   TASK 4    /////////////////
 
-            string text = "Some  rrr      text ++" ;
+            /*string text = "Some   rrr text ++" ;
             Task4 task4 = new Task4();
-            Console.WriteLine(task4.wordsCounter(text));
+            Console.WriteLine(task4.wordsCounter(text));*/
+
+            //////////////   TASK 5    /////////////////
+
+            Task5 task5 = new Task5();
+            double x = 4, y = 10;
+            double Multiply = task5.mult(x, 5);
+            double Divide = task5.div(y, 2);
+            double Sum = task5.sum(x, Multiply);
+            double Substact = task5.sub(Sum, Divide);
+            Console.WriteLine(Substact);
 
 
 
