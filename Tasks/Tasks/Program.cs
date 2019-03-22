@@ -6,7 +6,10 @@ namespace Tasks
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Task1 task1 = new Task1();
+            Console.WriteLine(task1.chooseBigger(8, 6));
+            Console.ReadKey();
+
         }
     }
 }
