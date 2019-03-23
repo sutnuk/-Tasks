@@ -14,7 +14,7 @@ namespace Tasks
 
             //////////////   TASK 2    /////////////////
 
-            /* int[] arr = { 5, 6, 12, 4, 88, 2, 44, 23 };
+            /*int[] arr = { 5, 6, 12, 4, 88, 2, 44, 23 };
              Task2<int> task2 = new Task2<int> { };
              Console.WriteLine(task2.findMin(arr));
              Console.WriteLine(task2.findMax(arr));*/
@@ -44,13 +44,26 @@ namespace Tasks
 
             //////////////   TASK 5    /////////////////
 
-            Task5 task5 = new Task5();
+            /*Task5 task5 = new Task5();
             double x = 4, y = 10;
             double Multiply = task5.mult(x, 5);
             double Divide = task5.div(y, 2);
             double Sum = task5.sum(x, Multiply);
             double Substact = task5.sub(Sum, Divide);
-            Console.WriteLine(Substact);
+            Console.WriteLine(Substact);*/
+
+            //////////////   TASK 6    /////////////////
+
+            Task6 task6 = new Task6();
+            string text = "Implement that that gggg function takes two two parameters ";
+            string[] words = { "that", "two" };
+            var res = task6.repeatCount(text, words);
+            foreach (var res1 in res)
+            {
+                Console.WriteLine(res1.Word + " " + res1.Count);
+            }
+            Console.ReadKey();
+
 
 
 
