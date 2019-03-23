@@ -54,20 +54,28 @@ namespace Tasks
 
             //////////////   TASK 6    /////////////////
 
-            Task6 task6 = new Task6();
-            string text = "Implement that that gggg function takes two two parameters ";
+            /*Task6 task6 = new Task6();
+            string text = "Implement that gggg function takes two two parameters ";
             string[] words = { "that", "two" };
             var res = task6.repeatCount(text, words);
             foreach (var res1 in res)
             {
                 Console.WriteLine(res1.Word + " " + res1.Count);
+            }*/
+
+            //////////////   TASK 7    /////////////////
+
+            Task7 task7 = new Task7();
+            int[] arr = { 5, 6, 12, 4, 88, 2, 44, 23 };
+            var res = task7.Numbers(arr);
+            foreach (var res1 in res)
+            {
+                Console.WriteLine(res1.isOdd());
             }
-            Console.ReadKey();
+            
 
 
-
-
-            Console.ReadKey();
+           Console.ReadKey();
 
         }
     }
